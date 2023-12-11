@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "question": "2 + 3?",
+      "answers": ["2", "3", "5"],
+      "correctAnswer": "5"
+    },
+    {
+      "question": "6 * 4?",
+      "answers": ["22", "24", "28"],
+      "correctAnswer": "24"
+    },
+    {
+      "question": "What is the capital of France?",
+      "answers": ["London", "Paris", "Berlin"],
+      "correctAnswer": "Paris"
+    },
+    {
+      "question " : "In what year was Marie Curie awarded the Nobel Prize?",
+      "answers": ["1911", "1930" , "1912" , "1905"],
+      "correctAnswer" : "1911"
+    } 
+  ]
+}

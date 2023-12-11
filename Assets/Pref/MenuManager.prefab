@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3444311857352053416
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6731620759235004355}
+  - component: {fileID: 7415511125467758415}
+  - component: {fileID: 5399835718971644854}
+  m_Layer: 0
+  m_Name: MenuManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6731620759235004355
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3444311857352053416}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 376.63852, y: 215.31198, z: -0.7118492}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7415511125467758415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3444311857352053416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 235efedf078cfdc4ba3a94882bb2847e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lvlPanel: {fileID: 7805488472724502321, guid: 63a956dcb3888294aa1ee580150a9638, type: 3}
+  upgradePanel: {fileID: 8108415416843036374, guid: 4b7f814f96f8bd94a9fbf1c282fe48f8, type: 3}
+  coinsText: {fileID: 0}
+  levelButtons:
+  - {fileID: 5678325000840819071, guid: 910bcc980d98edd4e87c51d674a4406b, type: 3}
+  - {fileID: 667000941968252011, guid: 23c652dad9550494ca388f279b1d3073, type: 3}
+  - {fileID: 2933614306211462336, guid: b8e7bd5844f8d4f4aa4f6ac66c1c405c, type: 3}
+  - {fileID: 2060248138589510858, guid: 26a394021e4f9fc4f9cffa0efb4a2d3d, type: 3}
+  - {fileID: 2563473992631345014, guid: 812d0e23327d2734dac9c6e87b97bf01, type: 3}
+--- !u!114 &5399835718971644854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3444311857352053416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddf6fdba4e89f6c468e4f419300e6768, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthText: {fileID: 0}
+  damageText: {fileID: 0}
+  upgradePointsText: {fileID: 0}
+  upgradeButton: {fileID: 0}

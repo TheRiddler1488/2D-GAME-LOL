@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7b23c2fc44d54554381f08e910399910
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - questionDataList: {fileID: 11400000, guid: 6cb18c6e5b1a2634da225f7bad9790b9, type: 2}
+  - questionPanel: {fileID: 8220071478372795870, guid: e4e14e97f24d8dd40b9fb0ea6411e1dd, type: 3}
+  - questionText: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
